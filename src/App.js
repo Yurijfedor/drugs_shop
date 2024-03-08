@@ -13,11 +13,12 @@ function App() {
       <div className="app">
         <Header />
         <Routes>
-          <Route index element={<ShopPage />} />
-          <Route path="/shop" element={<ShopPage />} />
-          <Route path="/shopping-cart" element={<ShoppingCartPage />} />
-          <Route path="/history" element={<History />} />
-          <Route path="*" element={<NotFoundPage />} />
+          <Route path="/" element={<ShopPage />}>
+            <Route path="/shop" element={<ShopPage />} />
+            <Route path="/shopping-cart" element={<ShoppingCartPage />} />
+            <Route path="/history" element={<History />} />
+            <Route path="*" element={<NotFoundPage />} />
+          </Route>
         </Routes>
         <Footer />
       </div>
