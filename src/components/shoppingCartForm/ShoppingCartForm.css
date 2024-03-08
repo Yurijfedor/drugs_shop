@@ -1,0 +1,45 @@
+.shopping-cart-form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-span {
+  color: red;
+}
+
+.submit-button {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}

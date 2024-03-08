@@ -1,0 +1,80 @@
+.shopping-cart-list {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.cart-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.item-details {
+  flex-grow: 1;
+}
+
+.item-title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.item-price {
+  margin-bottom: 5px;
+}
+
+.item-counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.counter-value {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.remove-button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #cc0000;
+}

@@ -1,0 +1,35 @@
+.shopping-cart-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopping-cart-page-top-wrap {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.shopping-cart-page-down-wrap {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  margin-right: 20px;
+}
+
+.shopping-cart-form {
+  flex-grow: 2; 
+}
+
+.shopping-cart-list {
+  flex-grow: 3;
+}
+
+.total-cost {
+  bottom: 10px; 
+  right: 10px; 
+  font-size: 18px; 
+  margin-right: 150px;
+}

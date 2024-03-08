@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+}
+
+.pharmacie-list-container {
+  flex-grow: 0; 
+  flex-shrink: 0; 
+}
+
+.drugs-list-container {
+  flex-grow: 1;
+}
