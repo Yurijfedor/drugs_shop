@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/drugs_shop/static/css/main.5d18f038.css",
-    "main.js": "/drugs_shop/static/js/main.ac91aa7c.js",
+    "main.js": "/drugs_shop/static/js/main.f5d9b957.js",
     "index.html": "/drugs_shop/index.html",
     "main.5d18f038.css.map": "/drugs_shop/static/css/main.5d18f038.css.map",
-    "main.ac91aa7c.js.map": "/drugs_shop/static/js/main.ac91aa7c.js.map"
+    "main.f5d9b957.js.map": "/drugs_shop/static/js/main.f5d9b957.js.map"
   },
   "entrypoints": [
     "static/css/main.5d18f038.css",
-    "static/js/main.ac91aa7c.js"
+    "static/js/main.f5d9b957.js"
   ]
 }
