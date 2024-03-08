@@ -9,7 +9,7 @@ import Footer from "./components/common/footer/footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/drugs_shop">
       <div className="app">
         <Header />
         <Routes>
