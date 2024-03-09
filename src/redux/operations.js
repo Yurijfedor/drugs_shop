@@ -1,7 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3000/api/";
+const BASE_URL = "https://important-coffee-antimony.glitch.me/api/";
+// const BASE_URL = "http://localhost:3000/api/";
 
 export const fetchDrugs = createAsyncThunk("drugs/fetchDrugs", async () => {
   try {
@@ -56,7 +57,7 @@ export const fetchOrderByUser = createAsyncThunk(
   async ({ email, phone }) => {
     try {
       const response = await axios.get(`${BASE_URL}order/user`, {
-        params: { email, phone }
+        params: { email, phone },
       });
       return response.data;
     } catch (error) {
